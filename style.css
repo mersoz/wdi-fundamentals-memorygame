@@ -1,0 +1,77 @@
+body {
+	text-align: center;
+	margin: 0;
+}
+
+div.headline {
+	background-color: #aaaaaa;
+	padding: 20px;
+}
+
+h1 {
+	width: 100%;
+	color: rgb(2, 132, 130);
+	font-weight: 800;
+	display: inline;
+	font-family: "Reem Kufi", sans-serif;
+	letter-spacing: 2px;
+}
+
+nav {
+	background-color: #aaaaaa; /* #808080 */
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+nav a {
+	background-color: #ffbf00;
+	color: black; /* white */
+	font-size: 20px;
+	line-height: 20px;
+	padding: 30px;
+	text-decoration: none;
+
+	display: block;
+	float: left;
+}
+
+a:hover {
+	background-color: #aaaaaa; /* #ee5f3c */
+	color: #ffffff;
+}
+
+h2 {
+	color: #ffd700;
+}
+
+.board {
+	height: 80%;
+	width: 50%;
+	display: inline-block;
+}
+
+.card {
+	height: 200px;
+	width: 150px;
+	border: solid black 1px;
+	border-radius: 10px;
+	background-color: yellow;
+	color: red;
+
+	margin: 8%;
+	float: left;
+}
+
+footer {
+	background-color: teal;
+	color: white;
+}
+
+.name {
+	color: pink;
+}
