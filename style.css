@@ -55,6 +55,11 @@ h2 {
 	display: inline-block;
 }
 
+.deck {
+	margin: 0 auto;
+	width: 450px;
+}
+
 .card {
 	height: 200px;
 	width: 150px;
